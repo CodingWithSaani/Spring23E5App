@@ -1,72 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".MainActivity">
-
-<TextView
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="University of Central Punjab"
-    android:textSize="20sp"
-    android:id="@+id/label_tv"
-    android:gravity="center"/>
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/logo_iv"
-        android:src="@drawable/logo"
-        android:layout_below="@id/label_tv"
-        android:layout_centerInParent="true"
-        />
-
-    <LinearLayout
+    <TextView
+        android:id="@+id/label_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/inner_ll"
         android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_below="@id/logo_iv">
+        android:text="@string/ucp_name"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/label_tv"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/inner_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_iv"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/cs_btn"
-            android:text="CS"
-            android:layout_marginEnd="10dp"
-            />
-
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/cs_btn" />
+
+        <Button
             android:id="@+id/se_btn"
-            android:text="SE"
-            android:layout_marginEnd="10dp"
-            />
-
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/se_btn" />
+
+        <Button
             android:id="@+id/adp_btn"
-            android:text="ADP"
-            />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adp_btn" />
 
 
     </LinearLayout>
 
     <TextView
+        android:id="@+id/footer_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Developed for E5"
-        android:textSize="14sp"
-        android:id="@+id/footer_tv"
-        android:gravity="center"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/developed_for_e5_tv"
+        android:textSize="14sp" />
 
 
 </RelativeLayout>

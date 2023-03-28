@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Spring23E5App</string>
+    <string name="ucp_name">University of central punjab</string>
+    <string name="cs_btn">CS</string>
+    <string name="se_btn">SE</string>
+    <string name="adp_btn">ADP</string>
+    <string name="developed_for_e5_tv">Developed for E5</string>
 </resources>
