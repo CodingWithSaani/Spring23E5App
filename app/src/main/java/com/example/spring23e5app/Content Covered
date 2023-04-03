@@ -8,3 +8,19 @@ Lecture 5 - 28th March 2023
  - functions in Kotlin
  - Nullability in Kotlin
  - Assignment Activity's Life-cycle method
+
+Lecture 6 - 31th March 2023
+ - EditText with hint, inputType, maxLength properties
+ - Variables in Kotlin, var, lateinit var, private access specifier
+ - Primitive and Reference data type in Kotlin
+ - Connecting XML views to Kotlin file
+ - Activity Life-cycle and Activity life-cycle callbacks.
+ - Using findViewById Method
+ - Variable scope functional level scope and class level scope
+ - Pascal and Camel Casing in Kotlin
+ - Using isNotEmpty and isEmpty methods
+ - Getting value from EditText and converting it to String and Int in Kotlin
+ - Template Strings in Kotlin
+ - If-else if - else
+ - Bundle class
+ - Packages and Sub Packages in Android Project

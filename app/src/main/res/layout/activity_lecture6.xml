@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lecture6.Lecture6Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/first_value_et"
+        android:hint="@string/enter_the_first_value_et"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:maxLength="5"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/second_value_et"
+        android:layout_below="@id/first_value_et"
+        android:hint="@string/enter_the_second_value_et"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:maxLength="5"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/magic_btn"
+        android:text="@string/do_the_magic_btn"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/second_value_et"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_tv"
+        android:text="@string/result_tv"
+        android:layout_below="@id/magic_btn"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+
+        />
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
