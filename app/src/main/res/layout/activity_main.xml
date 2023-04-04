@@ -53,6 +53,15 @@
 
     </LinearLayout>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/move_btn"
+        android:layout_margin="8dp"
+        android:text="Move to Next"
+        android:layout_below="@id/inner_ll"
+        />
+
     <TextView
         android:id="@+id/footer_tv"
         android:layout_width="match_parent"

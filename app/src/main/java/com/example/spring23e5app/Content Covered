@@ -24,3 +24,12 @@ Lecture 6 - 31th March 2023
  - If-else if - else
  - Bundle class
  - Packages and Sub Packages in Android Project
+
+Lecture 7 - 4th April 2023
+ -Toast class, makeText method, show method
+ -Context, and its types
+ -using requestFocus() method with EditText object in kotlin file
+ -using findViewById to access the view only once from XML file into Kotlin file
+ -Intents and creating an object of intent's class.
+ -How to get Java representation of an object of a Kotlin object?
+ -startActivity method

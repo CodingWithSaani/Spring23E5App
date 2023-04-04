@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import com.example.spring23e5app.R
 
 class Lecture6Activity : AppCompatActivity() {
@@ -44,15 +45,22 @@ class Lecture6Activity : AppCompatActivity() {
         }
         else if(firstValueET.text.toString().isEmpty())
         {
+            Toast.makeText(Lecture6Activity@this, "Please enter the data" +
+                    "into first field", Toast.LENGTH_SHORT).show()
 
+            firstValueET.requestFocus()
         }
         else if(secondValueET.text.toString().isEmpty())
         {
+            Toast.makeText(Lecture6Activity@this, "Please enter the data" +
+                    "into second field", Toast.LENGTH_SHORT).show()
 
+            secondValueET.requestFocus()
         }
         else
         {
-
+            Toast.makeText(Lecture6Activity@this, "Something went wrong",
+                Toast.LENGTH_SHORT).show()
         }
     }
 }
