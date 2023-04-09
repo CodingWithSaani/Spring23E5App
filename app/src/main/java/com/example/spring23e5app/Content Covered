@@ -33,3 +33,10 @@ Lecture 7 - 4th April 2023
  -Intents and creating an object of intent's class.
  -How to get Java representation of an object of a Kotlin object?
  -startActivity method
+
+Lecture 8 and 9
+ -Revision of previous concepts
+ -Moving from one activity to another
+ -Asked questions about packages, sub-packages, importing parent resources to sub-packages
+ -Assignment Calculator
+ -There will be quiz in next lecture.
