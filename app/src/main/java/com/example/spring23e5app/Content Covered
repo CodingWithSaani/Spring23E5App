@@ -34,9 +34,19 @@ Lecture 7 - 4th April 2023
  -How to get Java representation of an object of a Kotlin object?
  -startActivity method
 
-Lecture 8 and 9
+Lecture 8 and 9 - 7th April 2023
  -Revision of previous concepts
  -Moving from one activity to another
  -Asked questions about packages, sub-packages, importing parent resources to sub-packages
  -Assignment Calculator
  -There will be quiz in next lecture.
+
+
+ Lecture 10 - 11th April 2023
+  -What are fragments?
+  -Why do we need fragments?
+  -What are different type of fragments?
+    -Basic Fragment, Dialog Fragment, List Fragment, Bottom Navigation Fragment
+  -Static and Runtime Fragments
+  -Add static fragments to an activity
+  -Linear layout layout_weight property

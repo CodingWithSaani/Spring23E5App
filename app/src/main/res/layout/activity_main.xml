@@ -72,6 +72,15 @@
         android:layout_below="@id/move_btn"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/move_l1011_btn"
+        android:layout_margin="8dp"
+        android:text="Move to Lecture 10 11"
+        android:layout_below="@id/move_l89_btn"
+        />
+
     <TextView
         android:id="@+id/footer_tv"
         android:layout_width="match_parent"
