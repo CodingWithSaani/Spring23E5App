@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Spring23E5App"
         tools:targetApi="31">
         <activity
-            android:name=".Lecture12Activity"
+            android:name=".Lecture12.Lecture12Activity"
             android:exported="false" />
         <activity
             android:name=".Lecture1011.Lecture1011Activity"

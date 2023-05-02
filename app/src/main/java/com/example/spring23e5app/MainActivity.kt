@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.spring23e5app.Lecture1011.Lecture1011Activity
+import com.example.spring23e5app.Lecture12.Lecture12Activity
 import com.example.spring23e5app.Lecture6.Lecture6Activity
 import com.example.spring23e5app.Lecture89.Lecture89Activity
 
@@ -25,7 +26,8 @@ class MainActivity : AppCompatActivity()
         }
 
         findViewById<Button>(R.id.move_l1011_btn).setOnClickListener {
-            var intent = Intent(MainActivity@this,Lecture1011Activity::class.java)
+            //var intent = Intent(MainActivity@this,Lecture1011Activity::class.java)
+            var intent = Intent(MainActivity@this,Lecture12Activity::class.java)
             startActivity(intent)
         }
 
